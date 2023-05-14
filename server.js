@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Enter the Page Access Token from the previous step
-const FACEBOOK_PAGE_ACCESS_TOKEN = 'EAACRf0aKyqABAOoJUUg2lqA7kLez1pHmyv7HbZBGgxZBBThfkW1NkRcZA3YEuXd5ZBCeeTfdppwdVAivkBkza0dZCT2cMtdEzG6lG3Aot6S29U8lK39jSqHZBxbOc5iuvFjdDNZAELNdZCSx2GRZBmZAsHBkIz6o1fe9tz1isEIiAkpH4x93w5YuGX2EZBg2thZA3bPCCNrUC5wktZAwMKvqKVdH01EFTbA2aF5EZD'
+const FACEBOOK_PAGE_ACCESS_TOKEN = 'EAACRf0aKyqABAP1euVZAYw9NPN3rU6ZBS6NfAIAjXLZApC7wvqtOiblsdZBP2WO3iiM4PZCxYgYLaXagS5xEwkkuOgwP2vIZCGqSjZBjdR2MgvhwF0zmb4dtrIa7H9xA22d6ozoX07UdWtLmqPzZCOZB9YebgxdEOvz7KRUr8CGQP4Iy1THlM2mwjXNU1wkIIO6oVEus2ZBAMPfAZDZD'
 app.use(bodyParser.json());
 
 // GET /webhook
